@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <h2>JavaScript DOM</h2>
+    <p id="main">This is a paragraph</p>
+    <div class="display"></div> -->
+
+    <!-- <div id="a"></div>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <div></div> -->
+
+    <!-- <form name="myform" action="" method="get" onsubmit="return validateForm()">
+      <label for="age">Age</label>
+      <input type="text" name="age" />
+      <input type="submit" value="submit" />
+    </form> -->
+
+    <!-- <a name="myself">this is dom</a> -->
+
+    <!-- <h1 id="id1">My Heading</h1>
+
+    <button type="button" onclick="document.getElementById">
+      <label for="changeStyle">Click Me</label>
+    </button> -->
+
+    <!-- <h2>Java Script</h2>
+    <h2 onclick="this.innerHTML='OOOPPPSSSS'">Click ON This Text</h2> -->
+
+    <p id="demo"></p>
+
+    <p id="para">Shahbaz Hayat</p>
+    <button onclick="changeColor('blue'); displayDate()">blue</button>
+    <button onclick="changeColor('red');displayDate()">red</button>
+
+    <script>
+      //   var a = document.getElementById("main").innerHTML;
+      //   document.getElementsByClassName("display")[0].innerHTML = a;
+
+      //   var para = document.getElementsByTagName("p");
+      //   for (let index = 0; index < para.length; index++) {
+      //     para[index].innerHTML = index;
+      //   }
+
+      //   var anchor = document.getElementsByName("myself");
+      //   anchor[0].href = "http://www.google.com";
+
+      //   document.anchors[0].href = "http://www.google.com";
+
+      //   var age=document.getElementById('age1').value;
+      //     if(age == "")
+      //         return true;
+
+      //     //check if age is a number or less than or greater than 100
+      //     if (isNaN(age)||age<1||age>100)
+      //     {
+      //         alert("The age must be a number between 1 and 100");
+      //         return false;
+      //     }
+
+      // function validateForm() {
+      //   let x = document.forms["myForm"]["age"].value;
+      //   var pattern = new RegExp(/\d/);
+      //   if ((age == "" && !exp.exec(age)) || !Number.isInteger(age)) {
+      //     alert("Enter Age in Numaric ");
+      //     return false;
+      //   }
+      // }
+
+      // function changeStyle() {
+      //   document.getElementById("id1").style.color = "blue";
+      //   document.getElementById("id1").style.fontSize = "24px";
+      // }
+
+      function displayDate() {
+        document.getElementById("demo").innerHTML = Date();
+      }
+
+      function changeColor(newColor) {
+        const elem = document.getElementById("para");
+        elem.style.color = newColor;
+      }
+    </script>
+    <script src="doom.js"></script>
+  </body>
+</html>
