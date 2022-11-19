@@ -1,0 +1,3 @@
+[{"fname":"BabaFooka", "fatname":"Sugar Daddy", "age":"24", "graduated":"true", "emails":["First", "Second"], "address":["Dhokesyedan, Bakramandi"]},
+ {"fname":"BabaFooka", "fatname":"Sugar Daddy", "age":"24", "graduated":"true", "emails":["First", "Second"], "address":["Dhokesyedan, Bakramandi"]},
+ {"fname":"BabaFooka", "fatname":"Sugar Daddy", "age":"24", "graduated":"true", "emails":["First", "Second"], "address":["Dhokesyedan, Bakramandi"]}]

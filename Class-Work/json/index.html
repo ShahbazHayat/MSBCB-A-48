@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+    <script>
+      /* const student =
+        '{"fname": "BabaFooka","fatname": "Sugar Daddy","age": "24","graduated": "true","emails": ["First , Second"]}';
+
+      const obj = JSON.parse(student);
+      //   console.log(obj);
+
+      document.getElementById("demo").innerHTML += obj.fname; */
+
+      /*  const input = `{ "student": [
+        { "fname": "BabaFooka", "fatname": "Sugar Daddy", "age": "24", "graduated": "true", "emails": ["First , Second"], "address": ["Dhokesyedan , Bakramandi"]},
+        { "fname": "BabaFooka", "fatname": "Sugar Daddy", "age": "24", "graduated": "true", "emails": ["First , Second"], "address": ["Dhokesyedan , Bakramandi"]},
+        { "fname": "BabaFooka", "fatname": "Sugar Daddy", "age": "24", "graduated": "true", "emails": ["First , Second"], "address": ["Dhokesyedan , Bakramandi"]}]}`;
+      const obj = JSON.parse(input);
+      console.log(obj.student); */
+      /* const xhttp = new XMLHttpRequest();
+      xhttp.onload = function () {
+        console.log(this.responseText);
+        const toffee = JSON.parse(this.response);
+        document.getElementById("demo").innerHTML = toffee[1].fatname;
+      };
+      xhttp.open("GET", "template.txt");
+      xhttp.send(); */
+
+      /*function myDisplayer(some) {
+        document.getElementById("demo").innerHTML = some;
+      }
+
+      let myPromise = new Promise(async function (myResolve, myReject) {
+        let req = new XMLHttpRequest();
+        req.open("GET", "template.txt");
+        //req.onreadystatechange=function
+        req.onload = function () {
+          if (req.status == 200) {
+            myResolve(req.response);
+          } else {
+            myReject("File not Found");
+          }
+        };
+        req.send();
+      });
+
+      myPromise.then(
+        async function (value) {
+          myDisplayer(value);
+        },
+        async function (error) {
+          myDisplayer(error);
+        }
+      );*/
+      async function getFile() {
+        let myPromise = new Promise(function (resolve) {
+          let req = new XMLHttpRequest();
+          req.open("GET", "template.txt");
+          req.onload = function () {
+            if (req.status == 200) {
+              resolve(req.response);
+            } else {
+              resolve("File not Found");
+            }
+          };
+          req.send();
+        });
+        document.getElementById("demo").innerHTML = await myPromise;
+      }
+
+      getFile();
+    </script>
+  </body>
+</html>
