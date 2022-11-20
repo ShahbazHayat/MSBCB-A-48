@@ -1,0 +1,9 @@
+.zero{
+    background: aqua;
+    color: black;
+  }
+  
+  .nonzero{
+    background: rgb(47, 220, 111);
+    color: rgb(61, 71, 120);
+  }
