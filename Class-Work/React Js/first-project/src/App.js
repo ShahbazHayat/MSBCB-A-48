@@ -1,4 +1,4 @@
-import './App.css';
+
 
 
 // function App() {
@@ -27,9 +27,9 @@ import './App.css';
 
 //import React, { useState } from 'react';
 // import LoginForm from './component/Login';
-import Counter from './component/Counter';
-function App(){
-  return(
+// import Counter from './component/Counter';
+// function App(){
+//   return(
     // <><div>
     //   <h1>{userName}</h1>
     //   <h2>{lastName}</h2>
@@ -37,9 +37,32 @@ function App(){
     //   <button onClick={updatedValues}>click</button>
     // </div>
     // <LoginForm />
-    <Counter />
+//     <Counter />
     
+//   );
+//   }
+
+// export default App;
+
+import { Component } from 'react';
+import {
+  Button,
+  Form,
+  FormGroup,
+  Input,
+  Label
+} from 'reactstrap';
+import './App.css';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h2>Sign In</h2>
+        
+    </div>
   );
-  }
+}
+}
 
 export default App;

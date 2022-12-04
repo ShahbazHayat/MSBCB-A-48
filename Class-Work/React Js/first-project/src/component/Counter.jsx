@@ -1,10 +1,10 @@
-import"./Style.css"
+/* import"./Style.css"
 import { useState } from "react";
 
 const Counter = () => {
     const [count,setCount] = useState(0);
     const incrmnt = () => {
-        setCount(count +1);
+        setCount(count +1); */
         
         /*  if(count==="ZERO") {
              setCount(1);
@@ -12,7 +12,7 @@ const Counter = () => {
          else{
             setCount(count+1)
          } */
-    }
+    /* }
     const dcrmnt = () => {
         
 
@@ -34,4 +34,4 @@ const Counter = () => {
     </>;
 }
  
-export default Counter;
+export default Counter; */

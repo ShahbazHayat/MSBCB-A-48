@@ -27,9 +27,9 @@ import './App.css';
 
 //import React, { useState } from 'react';
 // import LoginForm from './component/Login';
-import Counter from './component/Counter';
-function App(){
-  return(
+// import Counter from './component/Counter';
+// function App(){
+//   return(
     // <><div>
     //   <h1>{userName}</h1>
     //   <h2>{lastName}</h2>
@@ -37,9 +37,9 @@ function App(){
     //   <button onClick={updatedValues}>click</button>
     // </div>
     // <LoginForm />
-    <Counter />
+//     <Counter />
     
-  );
-  }
+//   );
+//   }
 
-export default App;
+// export default App;
