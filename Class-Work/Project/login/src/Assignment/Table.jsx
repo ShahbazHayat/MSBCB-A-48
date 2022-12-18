@@ -52,7 +52,3 @@ return(
         </table>
     </div>
 )
- 
-export deconst [users, setUsers] = useState({
-    id:1, name: "Ram", email:"ram@gmail.com",age:23
-})

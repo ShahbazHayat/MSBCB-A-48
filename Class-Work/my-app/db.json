@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "username": "@ibbidope",
+      "name": "Ibrahim Hassan",
+      "age": 24,
+      "profession": "Full-Stack Dev"
+    },
+    {
+      "username": "@toffee",
+      "name": "Touseef Sabir",
+      "age": 26,
+      "profession": "Back-End Dev"
+    },
+    {
+      "username": "@sugardaddy",
+      "name": "Shahbaz Hayat",
+      "age": 24,
+      "profession": "Front-End Dev"
+    }
+  ]
+}

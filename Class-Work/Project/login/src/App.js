@@ -1,4 +1,5 @@
-import { Component } from 'react';
+/* import { Component } from 'react';
+import Table from 'reactstrap';
 import {
   Form,
   FormFeedback,
@@ -100,6 +101,20 @@ class App extends Component {
       </div>
     );
   }
+}
+
+export default App; */
+
+import React from "react";
+import './App.css';
+import Login from './components/Login';
+
+function App(){
+  return(
+  <>
+  <Login/>
+  </>
+  );
 }
 
 export default App;

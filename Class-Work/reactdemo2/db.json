@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ibrahim Hassan",
+      "age": 24,
+      "profession": "Full-Stack Dev"
+    },
+    {
+      "id": 2,
+      "name": "Touseef Sabir",
+      "age": 26,
+      "profession": "Back-End Dev"
+    },
+    {
+      "id": 3,
+      "name": "Shahbaz Hayat",
+      "age": 24,
+      "profession": "Front-End Dev"
+}
+]
+}
